@@ -14,6 +14,10 @@
 		17E98BB12028CAD0004DF59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E98BAF2028CAD0004DF59F /* LaunchScreen.storyboard */; };
 		17E98BBC2028CAD0004DF59F /* PagerMenu_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BBB2028CAD0004DF59F /* PagerMenu_DemoTests.swift */; };
 		17E98BC72028CAD0004DF59F /* PagerMenu_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BC62028CAD0004DF59F /* PagerMenu_DemoUITests.swift */; };
+		17E98BD92028D02F004DF59F /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BD82028D02F004DF59F /* CAPSPageMenu.swift */; };
+		17E98BDB2028D13B004DF59F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BDA2028D13B004DF59F /* FirstViewController.swift */; };
+		17E98BDD2028D149004DF59F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BDC2028D149004DF59F /* SecondViewController.swift */; };
+		17E98BDF2028D522004DF59F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E98BDE2028D522004DF59F /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		17E98BC22028CAD0004DF59F /* PagerMenu-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PagerMenu-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E98BC62028CAD0004DF59F /* PagerMenu_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerMenu_DemoUITests.swift; sourceTree = "<group>"; };
 		17E98BC82028CAD0004DF59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E98BD82028D02F004DF59F /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = "../../PageMenu-1.2.9/Classes/CAPSPageMenu.swift"; sourceTree = "<group>"; };
+		17E98BDA2028D13B004DF59F /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		17E98BDC2028D149004DF59F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		17E98BDE2028D522004DF59F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				17E98BA62028CAD0004DF59F /* AppDelegate.swift */,
 				17E98BA82028CAD0004DF59F /* ViewController.swift */,
+				17E98BD82028D02F004DF59F /* CAPSPageMenu.swift */,
 				17E98BAA2028CAD0004DF59F /* Main.storyboard */,
 				17E98BAD2028CAD0004DF59F /* Assets.xcassets */,
 				17E98BAF2028CAD0004DF59F /* LaunchScreen.storyboard */,
 				17E98BB22028CAD0004DF59F /* Info.plist */,
+				17E98BDA2028D13B004DF59F /* FirstViewController.swift */,
+				17E98BDC2028D149004DF59F /* SecondViewController.swift */,
+				17E98BDE2028D522004DF59F /* ThirdViewController.swift */,
 			);
 			path = "PagerMenu-Demo";
 			sourceTree = "<group>";
@@ -261,6 +273,10 @@
 			files = (
 				17E98BA92028CAD0004DF59F /* ViewController.swift in Sources */,
 				17E98BA72028CAD0004DF59F /* AppDelegate.swift in Sources */,
+				17E98BD92028D02F004DF59F /* CAPSPageMenu.swift in Sources */,
+				17E98BDD2028D149004DF59F /* SecondViewController.swift in Sources */,
+				17E98BDF2028D522004DF59F /* ThirdViewController.swift in Sources */,
+				17E98BDB2028D13B004DF59F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
